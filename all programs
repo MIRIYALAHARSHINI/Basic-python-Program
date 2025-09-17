@@ -1,0 +1,43 @@
+name= input("Enter your name")
+print("your name:",name)
+
+
+
+number1=input("Enter your First number")
+number2=input("Enter your Second number ")
+print("First number:",number1)
+print("second number:",number2)
+
+num3=int(input("Enter your Third number"))
+num4=int(input("enter your Fourth number"))
+sum=num3+num4
+print("sum of two values:",sum)
+
+a=input("Enter the frist name")
+b=input("Enter the last name")
+c=a+b
+print("your full name:",c)
+
+a=10
+b=20
+a=a+b;
+b=a-b
+a=a-b
+print("a:",a)
+print("b:",b)
+
+a=30
+b=40
+temp=a
+a=b
+b=temp
+print("after swaping:",a)
+print("after swaping:",b)
+
+
+a=int(input("enter the number"))
+b=float(input("enter the number"))
+c=bool(input('enter the number'))
+print("integer:",a)
+print("float:",b)
+print("bool:",c)
